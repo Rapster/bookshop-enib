@@ -1,33 +1,34 @@
-===================================== BookShop Enib : README =====================================
-- Binôme :
+**READ ME !** 
+
+- BinÃ´me :
   	  Chapalain Yoann
 	  Lepage Sebastien
 
-	Le projet porte sur la réalisation d'un client de gestion d'après les demandes formulées 
+	Le projet porte sur la rÃ©alisation d'un client de gestion d'aprÃ¨s les demandes formulÃ©es 
 dans le document exprimant les besoins.
-Le modèle de données pour le domaine est déjà fournit. 
-Le champs de compétence recouvre :
+Le modÃ¨le de donnÃ©es pour le domaine est dÃ©jÃ  fournit. 
+Le champs de compÃ©tence recouvre :
 			- La gestion du catalogue
 			- La gestion des clients
 			- La visualisation et suppression des commandes
 
-	Le travail consiste à implémenter les différentes pages nécessaires présentées ainsi que la 
+	Le travail consiste Ã  implÃ©menter les diffÃ©rentes pages nÃ©cessaires prÃ©sentÃ©es ainsi que la 
 navigation entres-elles.
 
-	Le patron "observer" à été choisi pour la gestion des données entre les classes de ce projet.
-On retrouve ainsi différents controllers (ainsi que les listeners et events correspondants) pour 
-chaque domaine à gérer.(categories, sujets, clients, ordres de commandes ...). 
-Un diagramme UML , présent dans le projet, fournit un exemple pour la representation d'un controller.
+	Le patron "observer" Ã  Ã©tÃ© choisi pour la gestion des donnÃ©es entre les classes de ce projet.
+On retrouve ainsi diffÃ©rents controllers (ainsi que les listeners et events correspondants) pour 
+chaque domaine Ã  gÃ©rer.(categories, sujets, clients, ordres de commandes ...). 
+Un diagramme UML , prÃ©sent dans le projet, fournit un exemple pour la representation d'un controller.
 
-	Pour ce projet la navigation par onglet à été choisi, car elle semble moins contraignante et
-plus souple que l'utilisation d'un grand nombre de fenêtre.
-Ce système est basé sur des JPanel modifiés (une croix ainsi qu'un menu déroulant au clic droit ont 
-été rajoutés) placés dans un tabbedPane.
-Pour chaque liste, il est possible d'insérer, de lire, de modifier ou de supprimer un élèment (CRUD)
-grâce à une gestion par formulaire.
-L'implementation d'un formulaire de recherche à également été fait.
+	Pour ce projet la navigation par onglet Ã  Ã©tÃ© choisi, car elle semble moins contraignante et
+plus souple que l'utilisation d'un grand nombre de fenÃªtre.
+Ce systÃ¨me est basÃ© sur des JPanel modifiÃ©s (une croix ainsi qu'un menu dÃ©roulant au clic droit ont 
+Ã©tÃ© rajoutÃ©s) placÃ©s dans un tabbedPane.
+Pour chaque liste, il est possible d'insÃ©rer, de lire, de modifier ou de supprimer un Ã©lÃ¨ment (CRUD)
+grÃ¢ce Ã  une gestion par formulaire.
+L'implementation d'un formulaire de recherche Ã  Ã©galement Ã©tÃ© fait.
 
-Le stockage des données est assuré par l'utilisation de listes.
-Une sérialisation binaire de ces listes est ensuite effectuées pour en garantir la persistence à la
+Le stockage des donnÃ©es est assurÃ© par l'utilisation de listes.
+Une sÃ©rialisation binaire de ces listes est ensuite effectuÃ©es pour en garantir la persistence Ã  la
 fermeture de l'application.
 
